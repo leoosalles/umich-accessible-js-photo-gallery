@@ -1,0 +1,33 @@
+body {
+    margin: 2%;
+    border: 1px solid black;
+    background-color: #B3B3B3;
+}
+
+#image {
+    line-height: 585px;
+    width: 517.5px;
+    height: 585px;
+    border: 4.5px solid black;
+    margin: 0 auto;
+    background-color: #8E68FF;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom: 22.5px;
+    margin-top: 22.5px;
+    font-size: 150%;
+}
+
+.preview {
+    width: 9%;
+    margin-left: 15.3%;
+    margin-bottom: 1.8%;
+    border: 9px solid black;
+}
+
+img {
+    width: 85.5%;
+}

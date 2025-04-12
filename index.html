@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/gallery.css">
+    <title>JS - Gallery Homework</title>
+</head>
+<body onload="setTabIndex()">
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <img
+        class="preview"
+        src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg"
+        alt="Styling with a bandana"
+        onmouseover="upDate(this)"
+        onmouseout="unDo()"
+        onfocus="upDate(this)"
+        onblur="unDo()">
+
+    <img
+        class="preview"
+        src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG"
+        alt="With my boy"
+        onmouseover="upDate(this)"
+        onmouseout="unDo()"
+        onfocus="upDate(this)"
+        onblur="unDo()">
+
+    <img
+        class="preview"
+        src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg"
+        alt="Young puppy"
+        onmouseover="upDate(this)"
+        onmouseout="unDo()"
+        onfocus="upDate(this)"
+        onblur="unDo()">
+
+    <img
+        class="preview"
+        src="./src/images/20240626_123407.jpg"
+        alt="Berlin Hauptbahnhof"
+        onmouseover="upDate(this)"
+        onmouseout="unDo()"
+        onfocus="upDate(this)"
+        onblur="unDo()">
+
+    <img
+        class="preview"
+        src="./src/images/20240626_123646.jpg"
+        alt="Humboldt Harbor"
+        onmouseover="upDate(this)"
+        onmouseout="unDo()"
+        onfocus="upDate(this)"
+        onblur="unDo()">
+
+    <img
+        class="preview"
+        src="./src/images/20240629_183318.jpg"
+        alt="Italy vs. Switzerland at Olympic Stadium in Berlin"
+        onmouseover="upDate(this)"
+        onmouseout="unDo()"
+        onfocus="upDate(this)"
+        onblur="unDo()">
+
+    <script type="text/javascript" src="./src/js/javascript.js"></script>
+</body>
+</html>
